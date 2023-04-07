@@ -5,6 +5,8 @@ body {
 .container {
   border: 6px solid black;
   display: flex;
+  /* how flex-items are contained within the flexbox */
+
   /* flex-direction: row; */
   flex-direction: row-reverse;
   /* flex-direction: column; */
