@@ -1,0 +1,27 @@
+*{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+.parent{
+    background-color: tomato;
+}
+
+.child1{
+    background-color: limegreen;
+    /*  */
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.child2{
+    background-color: cadetblue;
+}
+
+.child3{
+    background-color: indigo;
+    position: relative;
+    top: 50px;
+    right: 15px;
+}
