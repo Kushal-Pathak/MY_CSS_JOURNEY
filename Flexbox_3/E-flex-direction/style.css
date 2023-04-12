@@ -1,0 +1,29 @@
+.flexbox{
+    display: flex;
+    height: 750px;
+
+    /* flex-direction: row; */
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-item{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+}
+
+.item1{
+    min-height: 100px;
+}
+
+.item2{
+    min-height: 200px;
+}
+
+.item3{
+    min-height: 300px;
+}
