@@ -1,0 +1,36 @@
+.flexbox{
+    height: 650px;
+    display: flex;
+
+    /* flex wrap wraps the flex items if the flexbox is small */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    /* align contents is for rows of flex items */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: space-around; */
+    /* align-content: space-between; */
+    align-content: space-evenly;
+}
+
+.flex-item{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+}
+
+.item1{
+    min-height: 100px;
+}
+
+.item2{
+    min-height: 200px;
+}
+
+.item3{
+    min-height: 300px;
+}
