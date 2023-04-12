@@ -1,0 +1,31 @@
+.flexbox{
+    display: flex;
+
+    /* justify content is for main axis */
+    
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    justify-content: center;
+}
+
+.flex-item{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+}
+
+.item1{
+    min-height: 100px;
+}
+
+.item2{
+    min-height: 200px;
+}
+
+.item3{
+    min-height: 300px;
+}
