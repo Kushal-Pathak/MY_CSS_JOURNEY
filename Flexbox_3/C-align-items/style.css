@@ -1,0 +1,30 @@
+.flexbox{
+    display: flex;
+    justify-content: space-around;
+
+    /* align items is for cross axis */
+
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    align-items: center;
+}
+
+.flex-item{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+}
+
+.item1{
+    min-height: 100px;
+}
+
+.item2{
+    min-height: 200px;
+}
+
+.item3{
+    min-height: 300px;
+}
