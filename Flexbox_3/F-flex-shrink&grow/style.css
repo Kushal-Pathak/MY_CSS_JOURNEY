@@ -1,0 +1,26 @@
+.flexbox{
+    display: flex;
+}
+
+.flex-item{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+}
+
+.item1{
+    min-height: 100px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.item2{
+    min-height: 200px;
+    flex-shrink: 2;
+}
+
+.item3{
+    min-height: 300px;
+    flex-grow: 2;
+}
