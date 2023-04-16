@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  grid-template-rows: repeat(4, 100px);
+  grid-template-columns: repeat(4, 1fr);
+
+  /* justify-items: start;
+  align-items: start;
+  justify-items: end;
+  align-items: end;
+  justify-items: baseline;
+  align-items: baseline; */
+
+  justify-items: center;
+  align-items: center;
+}
