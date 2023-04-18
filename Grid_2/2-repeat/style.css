@@ -8,5 +8,5 @@
     display: grid;
     /* grid-template-columns: 100px 100px 100px 100px; */
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: 200px 150px
+    grid-template-rows: 200px 150px;
 }
