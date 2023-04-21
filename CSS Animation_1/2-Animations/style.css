@@ -9,13 +9,15 @@
 }
 
 .heading-1 {
-  animation-name: slideInLeft;
+  /* animation-name: slideInLeft;
   animation-duration: 2s;
   animation-timing-function: ease-in;
   animation-delay: 1s;
   animation-iteration-count: infinite;
   animation-direction: normal;
-  animation-fill-mode: none;
+  animation-fill-mode: both; */
+
+  animation: slideInLeft 2s ease-in 1s infinite normal both;
 
   transform: translateX(-150px);
 }
