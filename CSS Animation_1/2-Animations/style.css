@@ -1,3 +1,26 @@
+/* utility classes */
+.animate {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animate.animate--infinite {
+  animation-iteration-count: infinite;
+}
+
+.animate.animation--delay-1s {
+  animation-delay: 1s;
+}
+
+.animate.animate--fast {
+  animation-duration: 0.85s;
+}
+
+.animate.animate--slow {
+  animation-duration: 3s;
+}
+
+/* animations */
 @keyframes slideInLeft {
   from {
     transform: translateX(-300px);
@@ -8,16 +31,21 @@
   }
 }
 
-.heading-1 {
-  /* animation-name: slideInLeft;
+/* .heading-1 {
+  animation-name: slideInLeft;
   animation-duration: 2s;
   animation-timing-function: ease-in;
   animation-delay: 1s;
   animation-iteration-count: infinite;
   animation-direction: normal;
-  animation-fill-mode: both; */
+  animation-fill-mode: both;
 
   animation: slideInLeft 2s ease-in 1s infinite normal both;
 
   transform: translateX(-150px);
+} */
+
+.slideInLeft {
+  animation-name: slideInLeft;
+  animation-timing-function: ease-in;
 }
