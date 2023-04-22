@@ -49,3 +49,18 @@
   animation-name: slideInLeft;
   animation-timing-function: ease-in;
 }
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(300px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.slideInLeft {
+  animation-name: slideInRight;
+  animation-timing-function: ease-in;
+}
