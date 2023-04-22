@@ -60,7 +60,7 @@
   }
 }
 
-.slideInLeft {
+.slideInRight {
   animation-name: slideInRight;
   animation-timing-function: ease-in;
 }
