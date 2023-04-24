@@ -1,0 +1,24 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: hsl(200, 70%, 30%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+/*  */
+
+.box {
+  /* transform: skewX(30deg); */
+  /* transform: skewY(-30deg); */
+  transform: skew(30deg, -40deg);
+}
